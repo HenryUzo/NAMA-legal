@@ -48,10 +48,10 @@ owl.owlCarousel({
       items: 2,
     },
     1300: {
-      items: 3,
+      items: 4,
     },
 
-    1900: {
+    1600: {
       items: 4,
     },
   },
