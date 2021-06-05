@@ -146,10 +146,10 @@ $textColor: #808080;
                     width: 70%;
                     margin: auto;
                     @media (min-width: 600px) {
-                        width: 60%;
+                        width: 43%;
                     }
                     @media (min-width: 999px) {
-                        width: 90%;
+                        width: 56%;
                     }
                     img {
                         width: 100%;
@@ -422,7 +422,7 @@ footer{
     background-color: #585858;
     .footer-row{
         .copy-right{
-            @media (max-width:500px) {
+            @media (max-width:800px) {
                 text-align: center;
             }
             p{
@@ -432,7 +432,7 @@ footer{
         }
         .social{
             text-align: right;
-            @media (max-width:500px) {
+            @media (max-width:800px) {
                 text-align: center;
             }
             a{
