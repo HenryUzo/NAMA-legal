@@ -16,6 +16,22 @@
   padding-right: 6px;
 }
 
+.see-all {
+  padding: 10px 30px;
+  width: 18%;
+  text-decoration: none;
+  background-color: #0595dc;
+  box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 500px) {
+  .see-all {
+    width: 50%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -171,7 +187,7 @@
 }
 
 .banner .banner-content .banner-content-row .content-image .image {
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
@@ -324,22 +340,6 @@
 .event .properties-row .the-properties-carousel .properties-carousel-content .button2 span img {
   width: 20px;
   margin-left: 8px;
-}
-
-.event .see-all {
-  padding: 10px 30px;
-  width: 18%;
-  text-decoration: none;
-  background-color: #0595dc;
-  box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 500px) {
-  .event .see-all {
-    width: 50%;
-  }
 }
 
 .announcement {

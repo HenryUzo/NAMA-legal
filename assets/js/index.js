@@ -38,6 +38,7 @@ owl.owlCarousel({
   smartSpeed: 800,
   margin: 50,
   loop: true,
+  nav: true,
   responsive: {
     0: {
       items: 1,
