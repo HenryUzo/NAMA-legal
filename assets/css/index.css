@@ -32,6 +32,7 @@
   }
 }
 
+/*Navigation CSS*/
 .navigation {
   font-family: "Montserrat", sans-serif;
   background-color: #c8e9f9;
@@ -106,6 +107,7 @@
   color: white;
 }
 
+/*Body CSS*/
 .main-body .banner {
   height: 75vh;
   padding: 0;
@@ -134,7 +136,13 @@
 
 @media (min-width: 1600px) {
   .main-body .banner {
-    height: 85vh;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1700px) {
+  .main-body .banner .banner-content {
+    max-width: 1600px;
   }
 }
 
@@ -432,6 +440,7 @@
   margin-left: 8px;
 }
 
+/*Footer CSS*/
 footer {
   background-color: #585858;
 }

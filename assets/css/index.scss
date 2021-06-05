@@ -35,6 +35,8 @@ $textColor: #808080;
 
 }
 
+/*Navigation CSS*/
+
 .navigation {
     font-family: "Montserrat", sans-serif;
     background-color: $navBackgroundColor;
@@ -94,6 +96,7 @@ $textColor: #808080;
     }
 }
 
+/*Body CSS*/
 .main-body{
     .banner {
         height: 75vh;
@@ -112,10 +115,13 @@ $textColor: #808080;
             height: 65vh;
         }
         @media (min-width: 1600px) {
-            height: 85vh;
+            height: 60vh;
         }
        
         .banner-content {
+            @media (min-width:1700px) {
+                max-width: 1600px;
+            }
             .banner-content-row {
                 .content-text {
                     @media (max-width: 800px) {
@@ -406,7 +412,7 @@ $textColor: #808080;
     }
 }
 
-
+/*Footer CSS*/
 footer{
     background-color: #585858;
     .footer-row{
