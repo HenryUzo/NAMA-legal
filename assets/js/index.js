@@ -1,5 +1,5 @@
 
-var owl = $("#owl-carousel-1");
+var owl = $("#event-carousel");
 owl.owlCarousel({
   autoplay: true,
   lazyLoad: true,
@@ -27,17 +27,18 @@ owl.owlCarousel({
   },
 });
 
-var owl = $("#owl-carousel-2");
+var owl = $("#announcement-carousel");
 owl.owlCarousel({
   autoplay: true,
   lazyLoad: true,
   rewind: true,
   responsiveClass: true,
   autoHeight: true,
-  autoplayTimeout: 7000,
-  smartSpeed: 800,
+  autoplayTimeout: 6000,
+  smartSpeed: 500,
   margin: 50,
   loop: true,
+  pagination:true,
   nav: true,
   responsive: {
     0: {

@@ -263,6 +263,7 @@
 
 .event .properties-row .the-properties-carousel {
   margin-bottom: 60px;
+  border-radius: 10px;
 }
 
 .event .properties-row .the-properties-carousel .properties-carousel-content {
@@ -364,6 +365,7 @@
 
 .announcement .properties-row .the-properties-carousel {
   margin-bottom: 60px;
+  border-radius: 10px;
 }
 
 .announcement .properties-row .the-properties-carousel .properties-carousel-content {
