@@ -8,7 +8,7 @@ $textColor: #808080;
     color: $primaryColor;
     text-transform: uppercase;
     font-weight: 700;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .button1 {
@@ -283,7 +283,7 @@ $textColor: #808080;
               
             }
             .the-properties-carousel {
-                margin-bottom: 60px;
+                margin-bottom: 30px;
                 border-radius: 10px ;
                 .properties-carousel-content {
                     box-shadow: 1px 0px 60px 2px rgba(0, 0, 0, 0.1);
@@ -293,7 +293,7 @@ $textColor: #808080;
                     border-radius: 10px ;
                     padding: 30px;
                     h5 {
-                        font-size: 24px;
+                        font-size: 22px;
                         
                         font-weight: 700;
                         margin-bottom: 20px;
@@ -329,7 +329,7 @@ $textColor: #808080;
                     }
                     .description{
                         margin-top: 20px;
-                        margin-bottom: 30px;
+                        margin-bottom: 20px;
                         overflow: hidden;
                         display: -webkit-box;
                         -webkit-line-clamp: 3;
@@ -377,7 +377,7 @@ $textColor: #808080;
               
             }
             .the-properties-carousel {
-                margin-bottom: 60px;
+                margin-bottom: 30px;
                 border-radius: 10px ;
                 .properties-carousel-content {
                     box-shadow: 1px 0px 60px 2px rgba(0, 0, 0, 0.1);
@@ -401,10 +401,15 @@ $textColor: #808080;
                     .announcement-content{
                         padding-bottom: 40px;
                         h5 {
-                            font-size: 24px;
+                            font-size: 20px;
                             
                             font-weight: 700;
                             margin-bottom: 20px;
+
+                            overflow: hidden;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
                         }
                      
                         .date{
