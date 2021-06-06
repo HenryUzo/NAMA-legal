@@ -99,24 +99,24 @@ $textColor: #808080;
 /*Body CSS*/
 .main-body{
     .banner {
-        height: 75vh;
+        height: 300px;
         padding: 0;
         background: $secondaryColor;
         overflow: hidden;
         font-family: "Montserrat", sans-serif;
        
-        @media (min-width: 370px) {
-            height: 75vh;
-        }
-        @media screen and ( min-height: 810px ) {
-            height: 60vh;
-         }
-        @media (min-width: 600px) {
-            height: 65vh;
-        }
-        @media (min-width: 1600px) {
-            height: 60vh;
-        }
+        // @media (min-width: 370px) {
+        //     height: 75vh;
+        // }
+        // @media screen and ( min-height: 810px ) {
+        //     height: 60vh;
+        //  }
+        // @media (min-width: 600px) {
+        //     height: 300px;
+        // }
+        // @media (min-width: 1600px) {
+        //     height: 60vh;
+        // }
        
         .banner-content {
             @media (min-width:1700px) {
@@ -126,10 +126,10 @@ $textColor: #808080;
                 .content-text {
                    
                     @media (max-width: 800px) {
-                        margin-top: 60px;
+                        margin-top: 20px;
                     }
                     @media (max-width: 500px) {
-                        margin-top: 40px;
+                        margin-top: 20px;
                     }
     
                     h3 {
@@ -137,12 +137,12 @@ $textColor: #808080;
                         color: $textColor;
                     }
                     h1 {
-                        font-size: 36px;
+                        font-size: 30px;
                         font-weight: 800;
                         color: $primaryColor;
                     }
     
-                    @media (min-width: 400px) {
+                    @media (min-width: 450px) {
                         h3 {
                             font-size: 25px;
                             color: $textColor;
@@ -154,6 +154,17 @@ $textColor: #808080;
                         }
                     }
                     @media (min-width: 600px) {
+                        h3 {
+                            font-size: 30px;
+                            color: $textColor;
+                        }
+                        h1 {
+                            font-size: 43px;
+                            font-weight: 800;
+                            color: $primaryColor;
+                        }
+                    }
+                    @media (min-width: 800px) {
                         h3 {
                             font-size: 40px;
                             color: $textColor;
@@ -177,22 +188,23 @@ $textColor: #808080;
                     }
                 }
                 .content-image {
-                    margin-top: 30px;
+                   
                     .image {
-                        width: 60%;
+                        width: 150px;
                         margin: auto;
                         overflow: hidden;
                         @media (min-width: 600px) {
-                            width: 43%;
+                            width: 200px;
                         }
                         @media (min-width: 999px) {
-                            width: 56%;
+                            width: 250px;
                         }
                         @media (min-width:1700px) {
-                            width: 70%;
+                            width: 250px;
                         }
                         img {
                             width: 100%;
+
                         }
                     }
                 }
@@ -316,25 +328,23 @@ $textColor: #808080;
                         }
                     }
                     .description{
-                        margin-top: 40px;
-                        margin-bottom: 40px;
+                        margin-top: 20px;
+                        margin-bottom: 30px;
                         overflow: hidden;
                         display: -webkit-box;
-                        -webkit-line-clamp: 5;
+                        -webkit-line-clamp: 3;
                         -webkit-box-orient: vertical;
                         color: $textColor;
                     }
                     .button2 {
                         display: flex;
+                        
                         text-decoration: none;
-                        span {
-                            
-                           color: $primaryColor;
-                            font-weight: 600;
+                      
                             img {
                                 width: 20px;
                                 margin-left: 8px;
-                            }
+                            
                         }
                     }
                 }
@@ -378,7 +388,7 @@ $textColor: #808080;
                     padding: 0;
                     .image{
                         width: 100%;
-                        height: 180px;
+                        height: 150px;
                         overflow: hidden;
                         
                         img{
@@ -410,12 +420,12 @@ $textColor: #808080;
                             }
                         }
                         .description{
-                            margin-top:10px;
-                            margin-bottom: 30px;
+                            
+                            margin-bottom: 20px;
                            
                             overflow: hidden;
                             display: -webkit-box;
-                            -webkit-line-clamp: 5;
+                            -webkit-line-clamp: 3;
                             -webkit-box-orient: vertical;
                             color: $textColor;
                         }
